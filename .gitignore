@@ -2,29 +2,27 @@
 venv/
 .venv/
 env/
-ENV/
 
 # Python cache
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.pytest_cache/
 
-# Environment variables
+# Data files
+*.csv
+
+# ML model artifacts
+*.pkl
+*.h5
+*.joblib
+*.pt
+*.onnx
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Environment
 .env
 
 # IDE
 .vscode/
 .idea/
-*.swp
-
-# Logs
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Jupyter
-.ipynb_checkpoints/
