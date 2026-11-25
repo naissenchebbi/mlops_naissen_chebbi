@@ -26,3 +26,6 @@ __pycache__/
 # IDE
 .vscode/
 .idea/
+mlruns/
+mlflow.db
+model/
